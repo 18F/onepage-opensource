@@ -1,0 +1,187 @@
+hr {
+  border-top-color: $color-gray-lightest;
+  border-top-style: solid;
+  margin-top: ($grid-margins * 1.5);
+  margin-bottom: ($grid-margins * 1.5);
+}
+
+.opos-header {
+  color: $color-white;
+  background-color: $color-base;
+  font-size: $small-font-size;
+
+  img {
+    width: 3rem;
+    margin-right: 1rem;
+    float: left;
+  }
+
+  a:visited {
+    color: $color-primary-alt;
+  }
+
+  .opos-moreinfo p {
+    text-align: right;
+  }
+}
+
+.opos-intro {
+  background-color: $color-gray-dark;
+  color: $color-white;
+  padding-top: $grid-margins;
+  padding-bottom: ($grid-margins * 3);
+  @extend .usa-font-lead;
+  h1 {
+    color: $color-white;
+  }
+}
+
+.opos-purpose {
+  padding-top: ($grid-margins * 2);
+}
+
+.opos-transition {
+  padding-top: ($grid-margins * 2);
+  padding-bottom: ($grid-margins * 1.5);
+  position:relative;
+  p {
+    color: $color-gray-dark;
+    margin-top: ($grid-margins * 1.5);
+  }
+  div::before {
+    content:'';
+    width: 10rem;
+    height: 10px;
+    background: $color-gray-dark;
+    position: absolute;
+  }
+}
+
+.opos-illustration {
+  padding-top: ($grid-margins * 3.5)
+}
+
+
+a.opos-normal {
+  color: $color-primary-alt;
+}
+
+p.opos-normal {
+  color: $color-primary-alt;
+  @extend .usa-font-lead;
+}
+
+section.opos-normal {
+  background-color: $color-primary-alt-lightest;
+  padding-top: $grid-margins;
+  padding-bottom: ($grid-margins * 3);
+
+  h2 {
+    color: $color-primary-alt;
+  }
+
+  .usa-accordion-bordered {
+    padding-top: ($grid-margins * .5);
+    padding-bottom: $grid-margins;
+
+    button {
+      color: $color-primary-alt;
+      background-color: $color-white;
+    }
+  }
+}
+
+
+a.opos-benefits {
+  color: $color-secondary;
+}
+
+p.opos-benefits {
+  color: $color-secondary;
+  @extend .usa-font-lead;
+}
+
+section.opos-benefits {
+  background-color: $color-secondary-lightest;
+  padding-top: $grid-margins;
+  padding-bottom: $grid-margins;
+
+  h2 {
+    color: $color-secondary;
+  }
+
+  .usa-accordion-bordered {
+    padding-top: ($grid-margins * .5);
+    padding-bottom: $grid-margins;
+
+    button {
+      color: $color-secondary;
+      background-color: $color-white;
+    }
+  }
+}
+
+
+a.opos-practices {
+  color: $color-gold;
+}
+
+p.opos-practices {
+  color: $color-gold;
+  @extend .usa-font-lead;
+}
+
+section.opos-practices {
+  background-color: $color-gold-lightest;
+  padding-top: $grid-margins;
+  padding-bottom: $grid-margins;
+
+  h2 {
+    color: $color-gold;
+  }
+
+  .usa-accordion-bordered {
+    padding-top: ($grid-margins * .5);
+    padding-bottom: $grid-margins;
+
+    button {
+      color: $color-gold;
+      background-color: $color-white;
+    }
+  }
+}
+
+.opos-resources {
+  padding-top: $grid-margins;
+  padding-bottom: $grid-margins;
+
+  h3 {
+    margin-top: ($grid-margins * 2);
+  }
+
+  .opos-item {
+    background-color: $color-primary-alt-lightest;
+    margin-top: $grid-margins;
+    padding: 0 $grid-margins $grid-margins $grid-margins;
+  }
+
+  .opos-blog {
+    padding-bottom: ($grid-margins * 1);
+
+    p {
+      color: $color-gray-light;
+    }
+  }
+}
+
+footer {
+.usa-footer-return-to-top {
+  border-top: 2px solid $color-gray-lightest;
+}
+
+  img {
+    width: 8rem;
+    margin-top: ($grid-margins * .5);
+    margin-bottom: $grid-margins * .5;
+  }
+}
