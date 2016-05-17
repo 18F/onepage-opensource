@@ -2280,6 +2280,19 @@ hr {
 .opos-illustration {
   padding-top: 10.5rem; }
 
+.usa-accordion-bordered {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem; }
+  .usa-accordion-bordered .usa-accordion-content {
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff; }
+  .usa-accordion-bordered button {
+    background-color: #ffffff;
+    border: 2px solid #ffffff; }
+    .usa-accordion-bordered button:hover {
+      background-color: #ffffff; }
+
 a.opos-normal {
   color: #00CFFF; }
 
@@ -2292,12 +2305,10 @@ section.opos-normal {
   padding-bottom: 9rem; }
   section.opos-normal h2 {
     color: #00CFFF; }
-  section.opos-normal .usa-accordion-bordered {
-    padding-top: 1.5rem;
-    padding-bottom: 3rem; }
-    section.opos-normal .usa-accordion-bordered button {
-      color: #00CFFF;
-      background-color: #ffffff; }
+  section.opos-normal .usa-accordion-bordered button {
+    color: #00CFFF; }
+    section.opos-normal .usa-accordion-bordered button:hover {
+      border: 2px solid #00CFFF; }
 
 a.opos-benefits {
   color: #e31c3d; }
@@ -2311,12 +2322,10 @@ section.opos-benefits {
   padding-bottom: 3rem; }
   section.opos-benefits h2 {
     color: #e31c3d; }
-  section.opos-benefits .usa-accordion-bordered {
-    padding-top: 1.5rem;
-    padding-bottom: 3rem; }
-    section.opos-benefits .usa-accordion-bordered button {
-      color: #e31c3d;
-      background-color: #ffffff; }
+  section.opos-benefits .usa-accordion-bordered button {
+    color: #e31c3d; }
+    section.opos-benefits .usa-accordion-bordered button:hover {
+      border: 2px solid #e31c3d; }
 
 a.opos-practices {
   color: #fdb81e; }
@@ -2330,12 +2339,10 @@ section.opos-practices {
   padding-bottom: 3rem; }
   section.opos-practices h2 {
     color: #fdb81e; }
-  section.opos-practices .usa-accordion-bordered {
-    padding-top: 1.5rem;
-    padding-bottom: 3rem; }
-    section.opos-practices .usa-accordion-bordered button {
-      color: #fdb81e;
-      background-color: #ffffff; }
+  section.opos-practices .usa-accordion-bordered button {
+    color: #fdb81e; }
+    section.opos-practices .usa-accordion-bordered button:hover {
+      border: 2px solid #fdb81e; }
 
 .opos-resources {
   padding-top: 3rem;

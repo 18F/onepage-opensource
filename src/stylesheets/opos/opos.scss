@@ -61,6 +61,24 @@ hr {
   padding-top: ($grid-margins * 3.5)
 }
 
+.usa-accordion-bordered {
+  padding-top: ($grid-margins * .5);
+  padding-bottom: $grid-margins;
+
+  .usa-accordion-content {
+    border-right-color: $color-white;
+    border-bottom-color: $color-white;
+    border-left-color: $color-white;
+  }
+
+  button {
+    background-color: $color-white;
+    &:hover {
+      background-color: $color-white;
+    }
+    border: 2px solid $color-white;
+  }
+}
 
 a.opos-normal {
   color: $color-primary-alt;
@@ -81,12 +99,11 @@ section.opos-normal {
   }
 
   .usa-accordion-bordered {
-    padding-top: ($grid-margins * .5);
-    padding-bottom: $grid-margins;
-
     button {
       color: $color-primary-alt;
-      background-color: $color-white;
+      &:hover {
+        border: 2px solid $color-primary-alt;
+      }
     }
   }
 }
@@ -111,12 +128,11 @@ section.opos-benefits {
   }
 
   .usa-accordion-bordered {
-    padding-top: ($grid-margins * .5);
-    padding-bottom: $grid-margins;
-
     button {
       color: $color-secondary;
-      background-color: $color-white;
+      &:hover {
+        border: 2px solid $color-secondary;
+      }
     }
   }
 }
@@ -141,13 +157,13 @@ section.opos-practices {
   }
 
   .usa-accordion-bordered {
-    padding-top: ($grid-margins * .5);
-    padding-bottom: $grid-margins;
-
     button {
       color: $color-gold;
-      background-color: $color-white;
+      &:hover {
+        border: 2px solid $color-gold;
+      }
     }
+
   }
 }
 
