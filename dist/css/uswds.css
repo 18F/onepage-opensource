@@ -2280,17 +2280,17 @@ hr {
 .opos-illustration {
   padding-top: 10.5rem; }
 
-.usa-accordion-bordered {
+.opos-topic .usa-accordion-bordered {
   padding-top: 1.5rem;
   padding-bottom: 3rem; }
-  .usa-accordion-bordered .usa-accordion-content {
+  .opos-topic .usa-accordion-bordered .usa-accordion-content {
     border-right-color: #ffffff;
     border-bottom-color: #ffffff;
     border-left-color: #ffffff; }
-  .usa-accordion-bordered button {
+  .opos-topic .usa-accordion-bordered button {
     background-color: #ffffff;
     border: 2px solid #ffffff; }
-    .usa-accordion-bordered button:hover {
+    .opos-topic .usa-accordion-bordered button:hover {
       background-color: #ffffff; }
 
 a.opos-normal {
@@ -2353,10 +2353,10 @@ section.opos-practices {
     background-color: #e1f3f8;
     margin-top: 3rem;
     padding: 0 3rem 3rem 3rem; }
-  .opos-resources .opos-blog {
+  .opos-resources .opos-community {
     padding-bottom: 3rem; }
-    .opos-resources .opos-blog p {
-      color: #aeb0b5; }
+  .opos-resources .opos-blog p {
+    color: #aeb0b5; }
 
 footer .usa-footer-return-to-top {
   border-top: 2px solid #f1f1f1; }

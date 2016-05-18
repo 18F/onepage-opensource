@@ -61,7 +61,7 @@ hr {
   padding-top: ($grid-margins * 3.5)
 }
 
-.usa-accordion-bordered {
+.opos-topic .usa-accordion-bordered {
   padding-top: ($grid-margins * .5);
   padding-bottom: $grid-margins;
 
@@ -181,9 +181,11 @@ section.opos-practices {
     padding: 0 $grid-margins $grid-margins $grid-margins;
   }
 
-  .opos-blog {
+  .opos-community {
     padding-bottom: ($grid-margins * 1);
+  }
 
+  .opos-blog {
     p {
       color: $color-gray-light;
     }
