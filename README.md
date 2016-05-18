@@ -1,4 +1,4 @@
-# In-progress prototype for a one page resource on the topic of open source
+# Prototype single page point of entry to the topic of open source
 
 This project comes out of the Census project. The purpose is to define, collect, or otherwise produce support materials to support Senior IT decision-makers in adopting open source ideas.
 
