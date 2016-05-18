@@ -5,6 +5,12 @@ hr {
   margin-bottom: ($grid-margins * 1.5);
 }
 
+.opos-highlight {
+  background-color: $color-gold-lighter;
+  display: block;
+  padding: .5rem 1rem;
+}
+
 .opos-header {
   color: $color-white;
   background-color: $color-base;

@@ -2239,6 +2239,11 @@ hr {
   margin-top: 4.5rem;
   margin-bottom: 4.5rem; }
 
+.opos-highlight {
+  background-color: #fad980;
+  display: block;
+  padding: .5rem 1rem; }
+
 .opos-header {
   color: #ffffff;
   background-color: #212121;
