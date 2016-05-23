@@ -7,3 +7,5 @@ The original purpose of this project was to define, collect, or otherwise produc
 This is project was built using the [U.S. Web Design Standards](https://github.com/18F/web-design-standards).
 
 All content included in this prototype is for placement purposes only and has not been verified.
+
+[This article](https://medium.com/@brianhan/watch-compile-your-sass-with-npm-9ba2b878415b#.1esou11vd) is helpful for compiling Sass locally.
